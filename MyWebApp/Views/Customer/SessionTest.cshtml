@@ -1,0 +1,25 @@
+﻿@model System.Data.DataTable
+
+<h1>Session Test</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <!-- Add more table headers as per your DataTable columns -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (System.Data.DataRow row in Model.Rows)
+        {
+            <tr>
+                <td>@row["Name"]</td>
+                <td>@row["Email"]</td>
+                <td>@row["Phone"]</td>
+                <!-- Add more table cells as per your DataTable columns -->
+            </tr>
+        }
+    </tbody>
+</table>
+

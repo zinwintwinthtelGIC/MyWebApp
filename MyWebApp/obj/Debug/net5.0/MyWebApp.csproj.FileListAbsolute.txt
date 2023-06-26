@@ -436,3 +436,6 @@ C:\Users\GICM\source\repos\MyWebApp\MyWebApp\obj\Debug\net5.0\Razor\Views\Employ
 C:\Users\GICM\source\repos\MyWebApp\MyWebApp\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs
 C:\Users\GICM\source\repos\MyWebApp\MyWebApp\obj\Debug\net5.0\Razor\Views\Employee\DisplayOne.cshtml.g.cs
 C:\Users\GICM\source\repos\MyWebApp\MyWebApp\obj\Debug\net5.0\Razor\Views\Employee\DisplayTwo.cshtml.g.cs
+C:\Users\GICM\source\repos\MyWebApp\MyWebApp\obj\Debug\net5.0\Razor\Views\Home\Calculate.cshtml.g.cs
+C:\Users\GICM\source\repos\MyWebApp\MyWebApp\obj\Debug\net5.0\Razor\Views\Customer\Index.cshtml.g.cs
+C:\Users\GICM\source\repos\MyWebApp\MyWebApp\obj\Debug\net5.0\Razor\Views\Customer\SessionTest.cshtml.g.cs

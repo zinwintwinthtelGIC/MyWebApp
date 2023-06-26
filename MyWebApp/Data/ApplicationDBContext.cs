@@ -14,5 +14,10 @@ namespace MyWebApp.Data
 
         }
         public DbSet<Employee> Employee { get; set; }
+
+        public DbSet<Customer> Customer { get; set; }
+
+
     }
+
 }
