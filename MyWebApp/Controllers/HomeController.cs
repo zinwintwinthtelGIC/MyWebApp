@@ -18,7 +18,7 @@ namespace MyWebApp.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string gender)
         {
             return View();
         }
@@ -31,6 +31,13 @@ namespace MyWebApp.Controllers
         public IActionResult Calculate()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult RadioTest()
+        {
+            string gender = Request.Form["Gender"];
+            return View("Index",gender);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
